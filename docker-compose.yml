@@ -1,0 +1,5 @@
+version: '3'
+services:
+  docker_service_1:
+    build: .
+    command: ["run_main"]
